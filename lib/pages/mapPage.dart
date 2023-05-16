@@ -5,10 +5,10 @@ class maps extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Experience'),
+        title: Text('Maps'),
       ),
       body: Center(
-        child: Text('Bienvenue sur l\'écran d Experience !'),
+        child: Text('Bienvenue sur l\'écran d maps !'),
       ),
     );
   }

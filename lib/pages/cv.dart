@@ -24,7 +24,7 @@ class cv extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'FLUTTER DEVELOPER',
+                  'APP DEVELOPER',
                   style: TextStyle(
                     fontFamily: 'Source Sans Pro',
                     color: Colors.teal.shade100,
