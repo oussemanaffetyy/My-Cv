@@ -6,7 +6,6 @@ import 'package:mycv/pages/projectPage.dart';
 import 'package:mycv/pages/skillPage.dart';
 import 'EducationPage.dart';
 
-
 class MyHomePage extends StatelessWidget {
   final String title;
 
@@ -32,8 +31,7 @@ List<Widget> pages = [
   Experience(),
   Project(),
   skill(),
-  maps()
-  
+  MapPage()
 ];
 PageController _pageController = PageController(initialPage: 0);
 
@@ -97,11 +95,7 @@ class _BottomNavCustomState extends State<BottomNavCustom> {
               color: Color.fromRGBO(17, 148, 170, 1),
               fontWeight: FontWeight.bold),
         ),
-        const Color.fromRGBO(211, 235, 239, 1)
-        ),
-        
-
-
+        const Color.fromRGBO(211, 235, 239, 1)),
   ];
 
   Widget _buildItem(NavigationItem item, bool isSelected) {
